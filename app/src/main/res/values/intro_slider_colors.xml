@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Screens background color-->
+    <color name="bg_screen1">#5b970d</color>
+    <color name="bg_screen2">#ffffff</color>
+    <color name="bg_screen3">#22231d</color>
+    <color name="bg_screen4">#ffffff</color>
+
+    <!-- dots inactive colors -->
+    <color name="dot_dark_screen1">#3c6408</color>
+    <color name="dot_dark_screen2">#baadad</color>
+    <color name="dot_dark_screen3">#141511</color>
+    <color name="dot_dark_screen4">#c4c3c3</color>
+
+    <!-- dots active colors -->
+    <color name="dot_light_screen1">#8bcc37</color>
+    <color name="dot_light_screen2">#dfdfdf</color>
+    <color name="dot_light_screen3">#868977</color>
+    <color name="dot_light_screen4">#747070</color>
+
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+
+    <array name="array_dot_inactive">
+    <item>@color/dot_dark_screen1</item>
+    <item>@color/dot_dark_screen2</item>
+    <item>@color/dot_dark_screen3</item>
+    <item>@color/dot_dark_screen4</item>
+    </array>
+</resources>

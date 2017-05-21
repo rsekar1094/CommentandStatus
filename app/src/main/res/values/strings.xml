@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Spritle</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <string name="item_present_in_cart">This item already present in your Cart</string>
+
+    <string name="nav_item_home">Home</string>
+    <string name="nav_item_shop">Shop by Category</string>
+    <string name="nav_item_deals">Today\'s Deals</string>
+    <string name="nav_item_orders">My Orders</string>
+    <string name="nav_item_wishlist">My Cart</string>
+    <string name="nav_item_account">My Account</string>
+    <string name="nav_item_customer">Customer Service</string>
+
+    <!-- navigation drawer item labels  -->
+    <string-array name="nav_drawer_labels">
+        <item>@string/nav_item_home</item>
+        <item>@string/nav_item_shop</item>
+        <item>@string/nav_item_deals</item>
+        <item>@string/nav_item_orders</item>
+        <item>@string/nav_item_wishlist</item>
+        <item>@string/nav_item_account</item>
+        <item>@string/nav_item_customer</item>
+    </string-array>
+
+
+    <string name="slide_1_title">Are We ?</string>
+    <string name="slide_1_desc">Many of our favourite foods are ticking time bomb!!</string>
+
+    <string name="slide_4_title">GEN 1.11 supplies you more than 130 Organic products</string>
+
+
+    <string name="slide_3_title">Try ORGANIC FO0D...</string>
+    <string name="slide_3_desc">or as your grandparents called it,fOoD</string>
+
+
+
+</resources>

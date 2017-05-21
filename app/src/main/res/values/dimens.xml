@@ -1,0 +1,47 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_drawer_width">260dp</dimen>
+
+    <dimen name="padding_default">5dp</dimen>
+    <dimen name="Margint_default">5dp</dimen>
+
+    <dimen name="Item_padding">1dp</dimen>
+
+    <dimen name="Margint_top">10dp</dimen>
+    <dimen name="Margint_bottom">20dp</dimen>
+
+    <dimen name="Margin_item_center">50dp</dimen>
+
+    <dimen name="Qty_icon_size">35dp</dimen>
+
+    <dimen name="top_layout_height">50dp</dimen>
+
+    <dimen name="Text_size_normal">14sp</dimen>
+    <dimen name="Icon_text">11sp</dimen>
+    <dimen name="Text_size_head_1">18sp</dimen>
+    <dimen name="Text_size_main_head">25sp</dimen>
+
+    <dimen name="card_view_size">200dp</dimen>
+    <dimen name="card_view_size_1">250dp</dimen>
+
+    <dimen name="cart_image_size">100dp</dimen>
+    <dimen name="cart_image_size_1">150dp</dimen>
+
+    <dimen name="cart_image_size_2">100dp</dimen>
+
+    <dimen name="badge_text_size">20dp</dimen>
+
+    <dimen name="account_layout_height">50dp</dimen>
+    <dimen name="category_layout_height">45dp</dimen>
+
+   <dimen name="button_height">40dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+
+    <dimen name="rich_text_icon">40dp</dimen>
+
+
+</resources>

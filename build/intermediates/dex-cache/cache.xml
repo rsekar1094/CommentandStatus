@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajrajas\Downloads\Spritle\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="C:\Users\rajrajas\Downloads\Spritle\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_fbda8c16783c72af3ca53003d125e1a190c57983\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rajrajas\.android\build-cache\4aac629e0d3e6c228dc686a5e051b84cae136c20\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="21a28ff219324575b509d7c471487450d0c04584">
+        <dex dex="C:\Users\rajrajas\Downloads\Spritle\app\build\intermediates\pre-dexed\release\classes_9e17a8b7474b123d0c0ccf2e64c2d9de4d9abeb4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\rajrajas\.android\build-cache\8c5974f0ece6d89af0323c38c7a971149e9585b8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="C:\Users\rajrajas\Downloads\Spritle\app\build\intermediates\pre-dexed\release\classes_b0076931cc3a103183709459a52c904cf5a051b9.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\rajrajas\Downloads\Spritle\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d88319f185d1b668939d6353c7d96e40b1e999c6">
+        <dex dex="C:\Users\rajrajas\Downloads\Spritle\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ecb9628c3cf8102930582e1013820cb10b1df7f2\classes.dex" />
+    </item>
+
+</items>

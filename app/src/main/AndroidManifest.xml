@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rajrajas.spritle">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/MyMaterialTheme">
+        <activity android:name=".Activity.Register_activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Status_activity"
+            android:theme="@style/MyMaterialTheme" >
+        <intent-filter>
+        <category android:name="android.intent.category.DEFAULT" />
+        <action android:name="android.intent.action.VIEW" />
+        <data android:scheme="activity_status" />
+        </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity.Add_status_activity"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="activity_add" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Activity.first_user_activity"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="activity_first_user" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.second_user_activity"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="activity_second_user" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.Third_user_activity"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="activity_third_user" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.fourth_user_activity"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="activity_fourth_user" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.fifth_user_activity"
+            android:theme="@style/MyMaterialTheme" >
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+                <action android:name="android.intent.action.VIEW" />
+                <data android:scheme="activity_fifth_user" />
+            </intent-filter>
+        </activity>
+
+
+    </application>
+
+</manifest>

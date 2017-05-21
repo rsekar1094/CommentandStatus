@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_container"
+    android:clickable="true"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grayColor"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logo_img"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/account_layout_height"
+        android:background="@color/grayColor"
+        android:padding="@dimen/Margint_top"
+        android:contentDescription="Logo"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo_img">
+
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@color/grayColor">
+
+            <TextView
+                android:id="@+id/welcome_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/Margint_top"
+                android:text="Login to Spritle"
+                android:layout_marginTop="@dimen/Margint_top"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/Text_size_head_1"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ViewSwitcher
+                android:id="@+id/switcher"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:inAnimation="@anim/slide_in_left"
+                android:outAnimation="@anim/slide_out_right"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/welcome_txt"
+                >
+
+
+                <include
+                    android:id="@+id/login_layout"
+                    layout="@layout/login_layout"
+                    />
+                <include
+                    android:id="@+id/register_layout"
+                    layout="@layout/register_layout"
+                    />
+
+            </ViewSwitcher>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>
+

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="item"
+            type="com.example.rajrajas.spritle.model.Status_item" />
+    </data>
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Margint_top"
+        android:background="@color/whiteColor">
+
+        <ImageView
+            android:id="@+id/profile_image"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@mipmap/wolv"
+            tools:ignore="contentDescription"
+            android:layout_marginLeft="@dimen/Margint_top"
+            android:layout_marginStart="@dimen/Margint_top"
+            android:layout_marginTop="@dimen/Margint_top"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/user_name_txt"
+            tools:text="Raj"
+            android:text="@{item.username}"
+            android:textSize="@dimen/Text_size_head_1"
+            android:textColor="@color/textColor_dark"
+            android:layout_marginLeft="@dimen/Margint_top"
+            android:layout_marginStart="@dimen/Margint_top"
+            android:layout_marginTop="@dimen/Margint_top"
+            app:layout_constraintLeft_toRightOf="@+id/profile_image"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_txt"
+            tools:text="Great day start with great coffee"
+            android:text="@{item.statustext}"
+            android:textSize="@dimen/Text_size_normal"
+            android:textColor="@color/textColor_dark"
+            android:layout_marginLeft="@dimen/Margint_top"
+            android:layout_marginStart="@dimen/Margint_top"
+            android:layout_marginTop="@dimen/Margint_top"
+            app:layout_constraintLeft_toRightOf="@+id/profile_image"
+            app:layout_constraintTop_toBottomOf="@+id/user_name_txt"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/update_time_txt"
+            tools:text="33 mins"
+            android:text="@{item.statustime}"
+            android:textSize="@dimen/Text_size_normal"
+            android:textColor="@color/textColor_dark"
+            android:layout_marginTop="@dimen/Margint_default"
+            app:layout_constraintLeft_toLeftOf="@+id/update_txt"
+            app:layout_constraintTop_toBottomOf="@+id/update_txt"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="Like"
+            android:id="@+id/like_bt"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/Text_size_normal"
+            android:layout_marginLeft="@dimen/Margint_top"
+            android:layout_marginTop="@dimen/Margint_default"
+            app:layout_constraintTop_toBottomOf="@+id/update_txt"
+            app:layout_constraintBottom_toBottomOf="@+id/update_time_txt"
+            app:layout_constraintLeft_toRightOf="@+id/update_time_txt"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/like_cnt_txt"
+            tools:text="2"
+            android:text="@{item.totallikes}"
+            android:drawableLeft="@mipmap/heart"
+            android:drawableStart="@mipmap/heart"
+            android:drawablePadding="@dimen/Margint_default"
+            android:textSize="@dimen/Text_size_normal"
+            android:textColor="@color/textColor_dark"
+            android:layout_marginLeft="@dimen/Margint_top"
+            android:layout_marginStart="@dimen/Margint_top"
+            android:layout_marginTop="@dimen/Margint_default"
+            app:layout_constraintLeft_toRightOf="@+id/like_bt"
+            app:layout_constraintTop_toBottomOf="@+id/update_txt"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+</layout>

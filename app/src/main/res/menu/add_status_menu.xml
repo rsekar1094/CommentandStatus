@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.mobikul.MainActivity" >
+
+    <item
+        android:id="@+id/add_status"
+        android:icon="@mipmap/add_icon"
+        android:title="add status"
+        app:showAsAction="always" />
+</menu>

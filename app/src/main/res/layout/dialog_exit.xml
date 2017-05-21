@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/Margint_top"
+    android:padding="@dimen/Margint_top"
+    android:background="@color/whiteColor"
+    >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Are you sure,you want to exit?"
+        android:textColor="@color/textColor"
+        android:textSize="@dimen/Text_size_normal"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="@dimen/Margint_top"
+        android:layout_marginTop="@dimen/Margint_top"
+        android:layout_marginBottom="@dimen/Margint_top"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/Margint_top"
+        android:layout_marginBottom="@dimen/Margint_top">
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:textSize="@dimen/Text_size_normal"
+            android:textColor="@color/whiteColor"
+            android:background="@drawable/round_corner_button_ripple"
+            android:layout_marginLeft="@dimen/Margint_top"
+            android:layout_marginRight="@dimen/Margint_top"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:id="@+id/yes_bt"/>
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="No"
+            android:textSize="@dimen/Text_size_normal"
+            android:textColor="@color/whiteColor"
+            android:background="@drawable/round_corner_button_ripple"
+            android:layout_marginLeft="@dimen/Margint_top"
+            android:layout_marginRight="@dimen/Margint_top"
+            android:layout_weight="1"
+            android:textAllCaps="false"
+            android:id="@+id/no_bt"/>
+        </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grayColor">
+
+    <EditText
+        android:id="@+id/user_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/Margint_top"
+        android:background="@color/whiteColor"
+        android:drawableLeft="@mipmap/ic_user_black"
+        android:drawablePadding="@dimen/Margint_top"
+        android:hint="User Name"
+        android:inputType="text"
+        android:padding="@dimen/Margint_top"
+        android:textSize="@dimen/Text_size_normal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <EditText
+        android:id="@+id/reg_password_txt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/Margint_top"
+        android:background="@color/whiteColor"
+        android:drawableLeft="@mipmap/ic_password"
+        android:drawablePadding="@dimen/Margint_top"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="@dimen/Margint_top"
+        android:textSize="@dimen/Text_size_normal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_txt"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password ?"
+        android:textColor="@color/priceColor"
+        android:textStyle="bold"
+        android:id="@+id/forgot_password"
+        android:textSize="@dimen/Text_size_normal"
+        android:layout_marginTop="@dimen/Margint_bottom"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/reg_password_txt"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginLeft="@dimen/Margint_bottom"
+        android:layout_marginRight="@dimen/Margint_bottom"
+        android:layout_marginTop="@dimen/Margint_bottom"
+        android:background="@drawable/round_corner_button_ripple"
+        android:text="Login"
+        android:id="@+id/login_bt"
+        android:textColor="@color/whiteColor"
+        android:textSize="@dimen/Text_size_normal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/forgot_password"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a Registered User ?"
+        android:textColor="@color/priceColor"
+        android:textStyle="bold"
+        android:id="@+id/not_registered_bt"
+        android:layout_marginLeft="@dimen/Margint_bottom"
+        android:textSize="@dimen/Text_size_normal"
+        android:layout_marginTop="@dimen/Margint_bottom"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/login_bt"/>
+
+
+</android.support.constraint.ConstraintLayout>
